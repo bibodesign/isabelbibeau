@@ -325,7 +325,7 @@ video {
 /* <!-- ================ PORTFOLIO VISUAL =============== --> */
 
 .subtitle-portfolio {
-	text-transform: none;
+	color: #b2b2b2;
 }
 .portfolio-visual {
     margin-top: 4rem;
