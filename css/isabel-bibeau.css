@@ -1035,9 +1035,9 @@ h3 {
 /* <!-- ============ ABOUT =========== --> */
 
 .about-description {
+    align-items: center;
  	background-image: url("../images/hero-isabel-vide.jpg");   
     background-position: left;
-    align-items: center;
     height: 450px;
 }
 .isabel-about {
@@ -1057,9 +1057,9 @@ h3 {
 /* <!-- ============ CONTACT =========== --> */
 
 .contact-description {
+    align-items: center;
 	background-image: url("../images/hero-isabel-vide.jpg");
 	background-position: left;
-    align-items: center;
     height: 360px;
 }
 
