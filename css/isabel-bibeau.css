@@ -1,0 +1,1091 @@
+progress,sub,sup{vertical-align:baseline;}button,hr,input{overflow:visible;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;} figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block;}audio,canvas,progress,video{display:inline-block;}audio:not([controls]){display:none;height:0;} [hidden],template{display:none;}a{background-color:transparent;-webkit-text-decoration-skip:objects;}a:active,a:hover{outline-width:0;}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}b,strong{font-weight:bolder;}dfn{font-style:italic;}h1{font-size:2em;margin:.67em 0;}mark{background-color:#ff0;color:#000;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;}sub{bottom:-.25em;}sup{top:-.5em;}img{border-style:none;}svg:not(:root){overflow:hidden;}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}figure{margin:1em 40px;}hr{box-sizing:content-box;height:0;}button,input,select,textarea{font:inherit;margin:0;}optgroup{font-weight:700;}button,input{}button,select{text-transform:none;}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button;}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0;}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}textarea{overflow:auto;}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0;}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto;}[type=search]{-webkit-appearance:textfield;outline-offset:-2px;}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-input-placeholder{color:inherit;opacity:.54;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}
+
+.clearfix::after{visibility:hidden;display:block;content:" ";clear:both;height:0;}
+
+html{box-sizing:border-box;}*,*::before,*::after{box-sizing:inherit;}
+
+/* <!-- ================ BASIC STYLES =============== --> */
+html {
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-size: 1.7rem;
+	line-height: 1.2;
+	letter-spacing: 0.1em;
+	color: #000000;
+	background: #ffffff;
+}
+
+h1 {
+	color: black;
+	font-size: 4rem;
+	font-weight: 300;
+	letter-spacing: 0.1em;		
+	line-height: 1.1;
+	margin-bottom: 1.5rem;		
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.3;
+	font-family: 'Bitter', serif;
+	color: #b2b2b2;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-size: 10rem;
+	font-weight: 300;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0 auto;
+	height: 105px;
+}
+
+h4 {
+	color: #b2b2b2;
+	font-family: 'Bitter', serif;
+	font-size: 2.8rem;
+	letter-spacing: 0.2em;
+	line-height: 1.4;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+p {
+	color: #ffffff;
+	font-family: 'Bitter', serif;
+	font-size: 1.7rem;
+	font-weight: 300;		
+	letter-spacing: 0.2rem;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-size: 1.9rem;
+	font-style: normal;	
+	font-weight: 700;
+}
+
+.wrapper-white {
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+.container-nav-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.header-nav-top {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.container-nav-bottom {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.container-portfolio {
+	margin: 0 auto;
+	margin-top: 12rem;	
+	max-width: 1000px;
+}
+
+.container-about {
+	margin: 0 auto;
+	margin-top: 12rem;
+	max-width: 1000px;
+}
+
+.container-hero {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.container-clients {
+	margin: 0 auto;
+	margin-top: 12rem;
+	max-width: 1000px;	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-top ul li {
+	display: inline;
+}
+
+.nav-bottom ul li {
+	display: inline;
+}
+
+.nav-top ul li a {
+	color: #A2A2A2;
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+}
+
+.nav-bottom ul li a {
+	color: #A2A2A2;
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+}
+
+.hero-description br {
+	display: none;
+}
+
+h2 br {
+	display: none;
+}
+
+img,
+video {
+	max-width: 100%;
+}
+
+
+/* <!-- ================ NAV TOP =============== --> */
+.header-nav-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 25px 0;	
+}
+.nav-top {
+	width: 35%;
+}
+.nav-top a:hover {
+	color: #5E4977;	
+	font-weight: 400;
+}
+.nav-top li {
+	margin-right: 2.5rem;
+}
+.nav-top ul {
+	margin-top: 1.5rem;
+}
+.logo-nav-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 25%;	
+}
+.ib-logo {
+	width: 40px;
+}
+.facebook-lindekin {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 0.5rem;
+	width: 35%;	
+}
+.facebook-lindekin a:hover {
+	opacity: 0.5;
+}
+.linkedin-logo {
+	margin-left: 20px;
+	width: 35px;	
+}
+.facebook-logo {
+	width: 35px;
+}
+.hamburger {
+	display: none;
+}
+
+
+/* <!-- ================ HERO IMAGE =============== --> */
+
+.hero-isabel-image {
+	background-image: url("../images/hero-isabel.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	height: 100vh;
+	width: 100%;
+}
+.container-hero  {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.isabel-space {
+	height: 90px;	
+	letter-spacing: 0.08em;
+	margin-top: 18rem;
+}
+.bibeau-space {
+	margin-top: 0;
+}
+.isabel-under-title {
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+.hero-description {
+	margin-left: 1rem;
+	margin-top: 8rem;
+	max-width: 450px;	
+}
+
+
+/* <!-- ================ PORTFOLIO LIST =============== --> */
+
+.gallery-list {
+	display: flex; 
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+.gallery-list li {
+	margin-right: 2%;
+	margin-top: 2rem;
+	width: 32%;	
+}
+.gallery-list li:nth-of-type(3n){
+	margin-right: 0;
+}
+.gallery-list li figure {
+	margin: 0;
+	position: relative;	
+}
+.gallery-list img {
+	display: block; /* hack to remove "ghost space" at bottom */
+	width: 100%; /* make image same width as parent */
+}
+.gallery-list li figcaption {
+	background: rgba(94, 73, 119, 0.9);
+	padding: 25% 5%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0; /* hide this whole thing by default*/
+	transition: opacity 0.5s; 
+	width: 100%;	
+}
+.gallery-list li:hover figcaption {
+	opacity: 1; /* ok now show it on hover */
+}
+.gallery-list li figcaption h5 {
+	color: #ffffff;
+}
+.facebook-lindekin-hide {
+	display: none;
+}
+.btn-email-portfolio {
+	margin-top: 1rem;
+	text-align: right;
+	width: 35%;	
+}
+.btn-email-isabel-portfolio {
+	color: #b2b2b2;
+	font-weight: 300;
+	font-size: 1.6rem;
+	text-transform: lowercase;
+	letter-spacing: .1em;
+}
+.btn-email-isabel-portfolio:hover {
+	color: #5E4977;
+	font-weight: 400;
+}
+
+
+/* <!-- ================ PORTFOLIO VISUAL =============== --> */
+
+.portfolio-visual {
+    margin-top: 4rem;
+}
+.portfolio-cut {
+	margin-bottom: 1rem;
+}
+.btn {
+	padding-bottom: 3rem;	
+	padding-top: 3rem;
+	text-align: center;	
+}
+.btn-web {
+	border: 2px solid #b2b2b2;
+	padding: 13px 17px;
+	color: #b2b2b2;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.btn-web:hover {
+ 	background-color: #b2b2b2;
+	color: white;
+}
+
+/* <!-- ================ ABOUT SECTION =============== --> */
+.about-description {
+	background-image: url("../images/hero-isabel.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.isabel-about {
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	width: 400px;
+}
+
+.btn-about-cv {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	text-align: left;	
+}
+
+.btn-about {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 300;	
+	margin-left: 3rem;
+	padding: 12px 15px;
+	text-transform: uppercase;	
+}
+
+.btn-about:hover {
+ 	background-color: #ffffff;
+	color: #5E4977;
+}
+
+/* <!-- ================ CLIENTS-LOGOS =============== --> */
+
+.container-clients {
+	margin-top: 4rem;
+}
+
+.clients-logo-section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.logo-clients {
+	margin-bottom: 2rem;
+	margin-right: 5rem;
+	width: 17%;	
+}
+.logo-clients:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+/* <!-- ================ CONTACT =============== --> */
+
+.contact-description {
+	background-image: url("../images/hero-isabel-contact.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 600px;  
+    justify-content: center;
+    margin-top: 4rem;
+    width: 100%; 
+}
+.isabel-address {
+	font-size: 1.8rem;
+	margin-bottom: 0;
+	margin-left: 3rem;	
+	width: 400px;
+}
+.btn-email {
+	margin-bottom: 5rem;
+	margin-top: 4rem;
+	text-align: left;		
+}
+.btn-email-isabel {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-size: 1.8rem;
+	font-weight: 300;	
+	letter-spacing: .2em;
+	margin-left: 3rem;
+	padding: 12px 15px;	
+	text-transform: lowercase;
+}
+.btn-email-isabel:hover {
+ 	background-color: #ffffff;
+	color: #5E4977;
+}
+
+/* <!-- ================ FOOTER =============== --> */
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 25px 0;	
+}
+.nav-bottom {
+	width: 35%;
+}
+.nav-bottom a:hover {
+	color: #5E4977;
+	font-weight: 700;
+}
+.nav-bottom li {
+	margin-right: 2.5rem;
+}
+.nav-bottom ul {
+	margin-top: 1.5rem;
+}
+.arrow-logo {
+	margin-top: 1rem;
+	width: 40px;
+}
+.arrow-logo-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 25%;	
+}
+.facebook-lindekin-bottom {
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 35%;	
+}
+.facebook-lindekin-bottom a:hover {
+	opacity: 0.5;
+}
+.copyright {
+	color: #b2b2b2;
+	font-size: 1rem;
+}
+
+
+
+/* <!-- ================ 1024PX IPAD PORTRAIT =============== --> */
+
+@media (max-width: 1024px)
+and (orientation: portrait) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	max-width: 950px;
+}
+.container-nav-bottom {
+	max-width: 950px;
+}
+.container-hero {
+	max-width: 950px;
+}
+h2 br {
+	display: inline;
+}
+.isabel-space {
+	margin-top: 35rem;
+}
+}
+
+/* <!-- ================ 768PX PORTAIT IPAD =============== --> */
+
+@media (max-width: 768px)
+and (orientation: portrait) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	max-width: 725px;
+}
+.container-nav-bottom {
+	max-width: 725px;
+}
+.container-about {
+	width: 100%;
+}
+.container-hero {
+	margin-left: 20px;
+}
+.hero-isabel-image {
+    height: 100vh;
+}
+.nav-top {
+	width: 45%;
+}
+.nav-bottom {
+	width: 46%;
+}
+.logo-nav-top {
+	width: 10%;
+}
+.arrow-logo-bottom {
+	width: 8%;
+}
+.nav-top ul li a {
+	font-size: 1.5rem;
+	letter-spacing: .08em;
+}
+.nav-bottom ul li a {
+	font-size: 1.5rem;
+	letter-spacing: .08em;
+}
+.facebook-lindekin {
+	width: 45%;
+}
+.facebook-lindekin-bottom {
+	width: 46%;
+}
+.nav-top li {
+	margin-right: 1rem;
+}
+.nav-bottom li {
+	margin-right: 1rem;
+}
+h3 {
+	font-size: 8rem;
+}
+h4 {
+	font-size: 3rem;
+}
+.isabel-space {
+	height: 80px;
+	margin-top: 25rem;	
+}
+.bibeau-space {
+	height: 80px;
+}
+
+.hero-description br {
+	display: none;
+	margin-left: 0.5rem;
+}
+
+}
+
+/* <!-- ============= IPHONE 6+ 414PX, IPHONE X 375PX PORTRAIT ============ --> */
+
+@media (max-width: 414px)
+and (orientation: portrait) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	max-width: 350px;
+}
+.container-nav-bottom {
+	max-width: 350px;
+}
+.container-hero {
+	margin-left: 10px;
+	margin-top: 8rem;
+	width: 100%;	
+}
+.container-about {
+	width: 100%;
+}
+.header-nav-top {
+	justify-content: flex-end;
+	padding: 20px 0;	
+}
+.nav-top  {
+	display: none;
+}
+.logo-nav-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 76%;	
+}
+.facebook-lindekin {
+	display: none;
+}
+.hamburger {
+	display: inline-flex;
+	margin-top: 1rem;
+	width: 10%;
+}
+.hamburger-menu {
+	width: 35px;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 br {
+	display: inline;
+}
+h3 {
+	font-size: 5.5rem;
+}
+h4 {
+	font-size: 2.5rem;
+}
+.isabel-space {
+	height: 55px;
+	margin-top: 18rem;		
+}
+.bibeau-space {
+	height: 55px;
+}
+.isabel-under-title {
+	margin-left: 0.5rem;
+	margin-top: 2rem;
+}
+.hero-description br {
+	display: inline;
+	margin-left: 0.5rem;
+}
+.isabel-intro {
+	display: none;
+}
+.nav-bottom  {
+	display: none;
+}
+.gallery-list li {
+	margin-bottom: 0;
+	margin-right: 0;
+	width: 100%;	
+}
+.facebook-lindekin-hide {
+	display: inline;
+}
+.btn-email-portfolio {
+	display: none;
+}
+.about-description {
+    align-items: center;
+	background-image: url("../images/hero-isabel-vide.jpg");
+    background-position: left;
+    height: 500px;
+}
+.isabel-about {
+	margin-left: 0;
+	text-align: center;
+	width: 350px;
+}
+.btn-about-cv {
+	margin-left: 0;	
+	text-align: center;
+}
+.btn-about {
+	margin-left: 0;	
+}
+.contact-description {
+    align-items: center;
+	background-image: url("../images/hero-isabel-vide.jpg");
+	background-position: left;  
+    height: 360px;
+}
+.btn-email-isabel {
+	margin-left: 0;
+}
+.isabel-address {
+	margin-left: 0;
+	text-align: center;
+}
+.btn-email {
+	margin-left: 0;
+	text-align: center;	
+}
+.logo-clients {
+	margin-bottom: 1rem;
+	margin-right: 4rem;
+	width: 35%;	
+}
+.logo-clients:nth-of-type(2n) {
+	margin-right: 0;
+}
+.long-subtitle {
+	text-align: center;
+}
+}
+
+/* <!-- ================== 320PX-360PX PORTRAIT ================= --> */
+
+@media (max-width: 360px)
+and (orientation: portrait) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	max-width: 300px;
+}
+.container-nav-bottom {
+	max-width: 300px;
+}
+.container-hero {
+	margin-left: 15px;
+	max-width: 300px;
+}
+.container-about, .container-clients {
+	width: 100%;
+}
+.isabel-space {
+	font-size: 4.5rem;
+	height: 50px;
+	margin-top: 12rem;	
+}
+.bibeau-space {
+	font-size: 4.5rem;
+}
+.isabel-under-title {
+	 font-size: 2rem;
+	 margin-top: 0;
+}
+.hero-description {
+	margin-top: 5rem;
+}
+.about-description {
+	height: 600px;
+}
+.isabel-about {
+	width: 300px;
+}
+.btn-email-isabel {
+	letter-spacing: 0.1em;
+	padding: 8px 10px;	
+}
+}
+
+
+/* <!-- ================ 1366PX LANDSCAPE IPAD =============== --> */
+
+@media (max-width: 1366px)
+and (orientation: landscape) {
+
+.container-nav-top {
+	width: 100%;
+}
+.container-portfolio {
+	max-width: 1200px;
+}
+.header-nav-top {
+	max-width: 1200px;
+}
+.container-nav-bottom {
+	max-width: 1200px;
+}
+.container-about {
+	max-width: 1200px;
+}
+.container-hero {
+	max-width: 1200px;
+}
+.container-clients {
+	max-width: 1200px;
+}
+.isabel-space {
+	margin-top: 25rem;
+}
+}
+
+/* <!-- ================ 1024PX LANDSCAPE IPAD =============== --> */
+
+@media (max-width: 1024px)
+and (orientation: landscape) {
+
+.container-nav-top {
+	width: 100%;
+}
+.container-portfolio {
+	max-width: 950px;
+}
+.header-nav-top {
+	max-width: 950px;
+}
+.container-nav-bottom {
+	max-width: 950px;
+}
+.container-about {
+	max-width: 950px;
+}
+.container-hero {
+	max-width: 950px;
+}
+.container-clients {
+	max-width: 950px;
+}
+h3 {
+	font-size: 7rem;
+}
+h4 {
+	font-size: 2.5rem;
+}
+.isabel-space {
+	margin-top: 20rem;
+	height: 70px;
+}
+.bibeau-space {
+	height: 70px;
+}
+.hero-description {
+    margin-top: 5rem;
+}
+.hero-description p {
+  	font-size: 1.5rem;
+}
+}
+
+/* <!-- ============= IPHONE 6+ 736PX AND 823PX PIXEL 2XL LANDSCAPE  ============ --> */
+
+@media (max-width: 823px)
+and (orientation: landscape) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	max-width: 700px;
+	padding: 20px 0;	
+}
+.container-nav-bottom {
+	max-width: 700px;
+}
+.container-hero {
+	margin-left: 55px;
+	margin-top: 6rem;
+	max-width: 700px;	
+}
+.nav-top {
+	width: 45%;
+}
+.nav-bottom {
+	width: 46%;
+}
+.logo-nav-top {
+	width: 10%;
+}
+.arrow-logo-bottom {
+	width: 8%;
+}
+.nav-top ul li a {
+	font-size: 1.5rem;
+	letter-spacing: .08em;
+}
+.nav-bottom ul li a {
+	font-size: 1.5rem;
+	letter-spacing: .08em;
+}
+.facebook-lindekin {
+	width: 45%;
+}
+.facebook-lindekin-bottom {
+	width: 46%;
+}
+.nav-top li {
+	margin-right: 1rem;
+}
+.nav-bottom li {
+	margin-right: 1rem;
+}
+h1 {
+	font-size: 3.5rem;
+}
+h3 {
+	font-size: 6rem;
+}
+h4 {
+	font-size: 2rem;
+}
+.isabel-space {
+	height: 55px;
+	margin-top: 7rem;
+}
+.bibeau-space {
+	height: 55px;
+}
+.isabel-under-title {
+    margin-left: 0.5rem;
+}
+.hero-description {
+    margin-top: 2rem;
+}
+.isabel-intro {
+	display: none;
+}
+.contact-description {
+	height: 350px;
+}
+.about-description {
+	height: 500px;
+}
+.isabel-about {
+    font-size: 1.5rem;
+    width: 350px;
+}
+.btn-email {
+	margin-top: 1.5rem;
+}
+.btn-email-portfolio {
+	width: 45%;	
+}
+}
+
+
+
+/* <!-- ============= IPHONE 5 568PX, IPHONE 6 667PX AND 640PX GALAXY LANDSCAPE  ============ --> */
+
+@media (max-width: 667px)
+and (orientation: landscape) {
+
+.header-nav-top {
+	max-width: 550px;
+}
+.container-nav-bottom {
+	max-width: 550px;
+}
+.container-hero {
+	margin-left: 40px;
+	max-width: 640px;
+}
+.container-about {
+	max-width: 640px;
+}
+.header-nav-top {
+	padding: 18px 0;
+}
+.ib-logo {
+	width: 30px;
+}
+.linkedin-logo {
+	margin-left: 15px;
+	width: 30px;	
+}
+.facebook-logo {
+	width: 30px;
+}
+.nav-top ul li a {
+	font-size: 1.3rem;
+	letter-spacing: 0.1em;
+}
+.nav-top li {
+	margin-right: 0.4rem;
+}
+.nav-bottom ul li a {
+	font-size: 1.3rem;
+	letter-spacing: 0.1em;
+}
+.nav-bottom li {
+	margin-right: 0.4rem;
+}
+.nav-top ul {
+	margin-top: 1rem;
+}
+h3 {
+	font-size: 5rem;
+}
+.isabel-space {
+    height: 50px;
+    margin-top: 3.5rem;
+}
+.bibeau-space {
+    height: 50px;
+}
+.isabel-under-title {
+    margin-left: 0.5rem;
+}
+.container-portfolio {
+    margin-top: 8rem;
+}
+.portfolio-visual {
+    margin-top: 3rem;
+}
+
+/* <!-- ============ ABOUT =========== --> */
+
+.about-description {
+ 	background-image: url("../images/hero-isabel-vide.jpg");   
+    background-position: left;
+    align-items: center;
+    height: 450px;
+}
+.isabel-about {
+	margin-left: 0;
+	text-align: center;
+	width: 450px;	
+}
+.btn-about-cv {
+	margin-left: 0;
+	text-align: center;		
+}
+.btn-about {
+	margin-left: 0;	
+}
+
+
+/* <!-- ============ CONTACT =========== --> */
+
+.contact-description {
+	background-image: url("../images/hero-isabel-vide.jpg");
+	background-position: left;
+    align-items: center;
+    height: 360px;
+}
+
+.btn-email-isabel {
+	margin-left: 0;
+}
+.isabel-address {
+	margin-left: 0;
+	text-align: center;	
+}
+.btn-email {
+	margin-left: 0;
+	text-align: center;	
+}
+
+/* <!-- ========== CLIENTS SECTION ========= --> */
+
+.logo-clients {
+	margin-bottom: 1rem;
+	margin-right: 3rem;
+	width: 30%;	
+}
+.logo-clients:nth-of-type(2n) {
+	margin-right: 0;
+}
+.long-subtitle {
+	text-align: center;
+}
+}
