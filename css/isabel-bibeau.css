@@ -559,10 +559,6 @@ h2 br {
 .btn-about, .btn-email-isabel {
 	font-weight: 400;	
 }
-.isabel-address {
-	color: #ffffff;
-	text-decoration: none;
-}
 }
 
 /* <!-- ================ 768PX PORTAIT IPAD =============== --> */
@@ -641,7 +637,7 @@ h4 {
 	margin-left: 0.5rem;
 }
 .btn-email-portfolio {
-	width: 50%;	
+	width: 45%;	
 }
 }
 
@@ -761,7 +757,7 @@ h4 {
 .btn-email-isabel {
 	margin-left: 0;
 }
-.isabel-address {
+.isabel-address, .isabel-mobile {
 	margin-left: 0;
 	text-align: center;
 }
