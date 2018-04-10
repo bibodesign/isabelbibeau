@@ -365,7 +365,7 @@ video {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 750px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -375,14 +375,14 @@ video {
 .isabel-about {
 	font-size: 1.5rem;
 	margin-left: 5rem;
-	width: 450px;
+	width: 465px;
 }
 
 .isabel-skills {
 	font-size: 1.5rem;
 	margin-bottom: 0;
 	margin-left: 5rem;
-	width: 450px;
+	width: 465px;
 }
 
 .btn-about-cv {
