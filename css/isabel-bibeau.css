@@ -536,11 +536,31 @@ and (orientation: portrait) {
 .container-hero {
 	max-width: 950px;
 }
+.nav-top ul li a {
+	font-weight: 400;
+}
+.nav-bottom ul li a {
+	font-weight: 400;
+}
+h1 {
+	font-weight: 400;
+}
+
+h3 {
+	font-weight: 400;
+}
+
 h2 br {
 	display: inline;
 }
 .isabel-space {
 	margin-top: 35rem;
+}
+.btn-about, .btn-email-isabel {
+	font-weight: 400;	
+}
+.isabel-address {
+	text-decoration: none;
 }
 }
 
@@ -612,12 +632,10 @@ h4 {
 .bibeau-space {
 	height: 80px;
 }
-
 .hero-description br {
 	display: none;
 	margin-left: 0.5rem;
 }
-
 }
 
 /* <!-- ============= IPHONE 6+ 414PX, IPHONE X 375PX PORTRAIT ============ --> */
