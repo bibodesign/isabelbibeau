@@ -1004,8 +1004,9 @@ h4 {
 	height: 350px;
 }
 .isabel-about, .isabel-skills {
+    align-items: center;
    	font-size: 1.3rem;
-    width: 300px;
+    width: 400px;
 }
 .btn-email {
 	margin-top: 1.5rem;
