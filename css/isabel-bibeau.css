@@ -903,6 +903,38 @@ h4 {
 .hero-description p {
   	font-size: 1.5rem;
 }
+
+
+.nav-top {
+	width: 45%;
+}
+.nav-bottom {
+	width: 46%;
+}
+.logo-nav-top {
+	width: 10%;
+}
+.arrow-logo-bottom {
+	width: 8%;
+}
+.nav-top ul li a {
+	letter-spacing: .07em;
+}
+.nav-bottom ul li a {
+	letter-spacing: .07em;
+}
+.facebook-lindekin {
+	width: 45%;
+}
+.facebook-lindekin-bottom {
+	width: 46%;
+}
+.nav-top li {
+	margin-right: 1rem;
+}
+.nav-bottom li {
+	margin-right: 1rem;
+}
 }
 
 /* <!-- ============= IPHONE 6+ 736PX AND 823PX PIXEL 2XL LANDSCAPE  ============ --> */
