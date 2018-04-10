@@ -446,6 +446,7 @@ video {
     width: 100%; 
 }
 .isabel-address {
+	color: #fffff;
 	font-size: 2rem;
 	margin-bottom: 0;
 	margin-left: 3rem;	
@@ -461,9 +462,9 @@ video {
 	color: #ffffff;
 	font-size: 2rem;
 	font-weight: 300;	
-	letter-spacing: .2em;
+	letter-spacing: .1em;
 	margin-left: 3rem;
-	padding: 12px 15px;	
+	padding: 11px 14px;	
 	text-transform: lowercase;
 }
 .btn-email-isabel:hover {
@@ -713,9 +714,8 @@ h4 {
     align-items: center;
 	background-image: url("../images/hero-isabel-vide.jpg");
     background-position: left;
-    height: 500px;
 }
-.isabel-about {
+.isabel-about, .isabel-skills {
 	margin-left: 0;
 	text-align: center;
 	width: 350px;
@@ -961,14 +961,14 @@ h4 {
 .isabel-intro {
 	display: none;
 }
+.about-description {
+    height: 600px;
+}
 .contact-description {
 	height: 350px;
 }
-.about-description {
-	height: 500px;
-}
-.isabel-about {
-    font-size: 1.5rem;
+.isabel-about, .isabel-skills {
+   	font-size: 1.3rem;
     width: 350px;
 }
 .btn-email {
