@@ -632,6 +632,9 @@ h4 {
 .bibeau-space {
 	height: 80px;
 }
+.isabel-about, .isabel-skills {
+	width: 440px;
+}
 .hero-description br {
 	display: none;
 	margin-left: 0.5rem;
@@ -936,11 +939,11 @@ and (orientation: landscape) {
 }
 .nav-top ul li a {
 	font-size: 1.5rem;
-	letter-spacing: .08em;
+	letter-spacing: .07em;
 }
 .nav-bottom ul li a {
 	font-size: 1.5rem;
-	letter-spacing: .08em;
+	letter-spacing: .07em;
 }
 .facebook-lindekin {
 	width: 45%;
@@ -987,7 +990,7 @@ h4 {
 }
 .isabel-about, .isabel-skills {
    	font-size: 1.3rem;
-    width: 350px;
+    width: 300px;
 }
 .btn-email {
 	margin-top: 1.5rem;
