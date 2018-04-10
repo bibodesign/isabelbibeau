@@ -633,7 +633,7 @@ h4 {
 	height: 80px;
 }
 .isabel-about, .isabel-skills {
-	width: 440px;
+	width: 400px;
 }
 .hero-description br {
 	display: none;
@@ -935,6 +935,9 @@ h4 {
 .nav-bottom li {
 	margin-right: 1rem;
 }
+.btn-email-portfolio {
+	width: 48%;	
+}
 }
 
 /* <!-- ============= IPHONE 6+ 736PX AND 823PX PIXEL 2XL LANDSCAPE  ============ --> */
@@ -957,37 +960,17 @@ and (orientation: landscape) {
 	margin-top: 6rem;
 	max-width: 700px;	
 }
-.nav-top {
-	width: 45%;
-}
-.nav-bottom {
-	width: 46%;
-}
-.logo-nav-top {
-	width: 10%;
-}
 .arrow-logo-bottom {
 	width: 8%;
 }
 .nav-top ul li a {
 	font-size: 1.5rem;
-	letter-spacing: .07em;
 }
 .nav-bottom ul li a {
 	font-size: 1.5rem;
-	letter-spacing: .07em;
 }
 .facebook-lindekin {
 	width: 45%;
-}
-.facebook-lindekin-bottom {
-	width: 46%;
-}
-.nav-top li {
-	margin-right: 1rem;
-}
-.nav-bottom li {
-	margin-right: 1rem;
 }
 h1 {
 	font-size: 3.5rem;
