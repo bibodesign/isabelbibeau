@@ -380,11 +380,13 @@ video {
 
 .isabel-skills {
 	font-size: 1.5rem;
+	margin-bottom: 0;
 	margin-left: 5rem;
 	width: 450px;
 }
 
 .btn-about-cv {
+	margin-top: 2rem;	
 	padding-bottom: 3rem;
 	padding-top: 3rem;
 	text-align: left;	
