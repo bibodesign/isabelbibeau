@@ -347,3 +347,72 @@ and (orientation: portrait) {
 
 }
 
+/* <!-- ================ 731PX, 823PX LANDSCAPE =============== --> */
+
+@media (max-width: 823px)
+and (orientation: landscape) {
+
+.container-nav-top {
+	width: 100%;
+}
+.header-nav-top {
+	justify-content: flex-end;
+	max-width: 650px;
+	padding: 20px 0;
+}
+.container-hero {
+	margin-left: 10px;
+	margin-top: 2rem;
+	width: 100%;	
+}
+.nav-top  {
+	display: none;
+}
+.logo-nav-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 76%;	
+}
+.facebook-lindekin {
+	display: none;
+}
+.close-btn {
+	display: inline-flex;
+	margin-top: 1rem;
+	width: 10%;
+}
+.close-menu-btn {
+	width: 25px;
+}
+.mobile-menu a {
+	font-size: 4rem;
+}
+.mobile-menu {
+	margin-left: 3rem;
+	padding-top: 2rem;
+}
+.mobile-menu-list {
+	margin-bottom: 1rem;
+}
+.social-media-mobile {
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	margin-right: 3rem;
+}
+.facebook-logo, .linkedin-logo {
+	width: 35px;
+}
+}
+
+/* <!-- ================ 568PX, 640PX, 667PX LANDSCAPE =============== --> */
+
+@media (max-width: 667px)
+and (orientation: landscape) {
+
+
+.header-nav-top {
+	max-width: 550px;
+}
+}
