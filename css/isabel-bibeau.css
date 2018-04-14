@@ -166,6 +166,11 @@ ul {
 	display: none;
 }
 
+.isabel-mobile {
+	color: inherit;
+	list-style: none;
+}
+
 h2 br {
 	display: none;
 }
@@ -556,6 +561,9 @@ h2 br {
 .isabel-space {
 	margin-top: 35rem;
 }
+.isabel-mobile {
+	color: #ffffff;
+}
 .btn-about, .btn-email-isabel {
 	font-weight: 400;	
 }
@@ -859,6 +867,9 @@ and (orientation: landscape) {
 .isabel-address {
 	color: #ffffff;
 	text-decoration: none;
+}
+.isabel-mobile {
+	color: #ffffff;
 }
 }
 
