@@ -708,7 +708,7 @@ h4 {
 }
 .isabel-space {
 	height: 55px;
-	margin-top: 18rem;		
+	margin-top: 17rem;		
 }
 .bibeau-space {
 	height: 55px;
@@ -716,6 +716,9 @@ h4 {
 .isabel-under-title {
 	margin-left: 0.5rem;
 	margin-top: 2rem;
+}
+.hero-description {
+	margin-top: 4rem;
 }
 .hero-description br {
 	display: inline;
