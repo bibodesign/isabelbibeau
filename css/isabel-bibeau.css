@@ -373,8 +373,8 @@ video {
     flex-direction: column;
     justify-content: center;
     margin-top: 4rem;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
 }
 
 .isabel-about {
@@ -746,6 +746,8 @@ h4 {
     align-items: center;
 	background-image: url("../images/hero-isabel-vide.jpg");
     background-position: left;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 .isabel-about, .isabel-skills {
 	margin-left: 0;
@@ -824,9 +826,6 @@ and (orientation: portrait) {
 }
 .hero-description {
 	margin-top: 5rem;
-}
-.about-description {
-	height: 600px;
 }
 .isabel-about {
 	width: 300px;
@@ -922,7 +921,6 @@ h4 {
   	font-size: 1.5rem;
 }
 
-
 .nav-top {
 	width: 45%;
 }
@@ -1015,9 +1013,7 @@ h4 {
 .isabel-intro {
 	display: none;
 }
-.about-description {
-    height: 600px;
-}
+
 .contact-description {
 	height: 350px;
 }
@@ -1110,12 +1106,13 @@ h3 {
     align-items: center;
  	background-image: url("../images/hero-isabel-vide.jpg");   
     background-position: left;
-    height: 550px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 .isabel-about, .isabel-skills {
 	margin-left: 0;
 	text-align: center;
-	width: 450px;	
+	width: 500px;	
 }
 .btn-about-cv {
 	margin-left: 0;
