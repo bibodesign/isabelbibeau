@@ -179,6 +179,10 @@ video {
 	max-width: 100%;
 }
 
+.logo-clients-svg {
+filter: url(#blur-filter);
+}
+
 
 /* <!-- ================ NAV TOP =============== --> */
 .header-nav-top {
